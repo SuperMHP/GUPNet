@@ -51,7 +51,7 @@ We also provide the trained checkpoint which achieved the best multi-category pe
 
 <table align="center">
     <tr>
-        <td rowspan="2">Models</td>
+        {% capture details %} <align="center"> <td rowspan="2">Models</td>
         <td colspan="3">Car@IoU=0.7</td>    
         <td colspan="3">Car@IoU=0.7</td>  
         <td colspan="3">Car@IoU=0.7</td>  
