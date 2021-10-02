@@ -49,6 +49,10 @@ After that, please use the kitti evaluation devkit (deails can be refered to [Fr
 
 We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing). This checkpoint performance is as follow:
 
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
 
 ### Test (I will modify this section to be more automatical in future)
 
@@ -67,6 +71,6 @@ We also give our trained checkpoint on the trainval dataset. You can download it
 
 1. The releases code is originally set to train on multi-category here. If you would like to train on the single category (Car), please modify the code/experiments/config.yaml. Single-category training can lead to higher performance on the Car. 
 
-2. If you need to evaluate the results on the testing set. Please modify the train set to the trainval set first and evaluate on the test set. And after training, please submit a compressed file of the outputs/data. 
+2. This implementation includes some tricks that do not describe in the paper. Please feel free to ask me in the issue. And I will also update the principle of them in the [supplementary materials](https://github.com/SuperMHP/GUPNet/blob/main/pdf/supp.pdf)
 
 3. The overall code cannot completely remove randomness because we use some functions which do not have reproduced implementation (e.g. ROI align). So the performance may have a certain degree of jitter, which is normal for this project. 
