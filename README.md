@@ -6,7 +6,10 @@ This is the official implementation of "Geometry Uncertainty Projection Network 
 
 If you find our work useful in your research, please consider citing:
 
-    @article{lu2021geometry,title={Geometry Uncertainty Projection Network for Monocular 3D Object Detection},author={Lu, Yan and Ma, Xinzhu and Yang, Lei and Zhang, Tianzhu and Liu, Yating and Chu, Qi and Yan, Junjie and Ouyang, Wanli},journal={arXiv preprint arXiv:2107.13774},year={2021}}
+    @article{lu2021geometry,
+    title={Geometry Uncertainty Projection Network for Monocular 3D Object Detection},
+    author={Lu, Yan and Ma, Xinzhu and Yang, Lei and Zhang, Tianzhu and Liu, Yating and Chu, Qi and Yan, Junjie and Ouyang, Wanli},
+    journal={arXiv preprint arXiv:2107.13774},year={2021}}
 
 ## Usage
 
@@ -47,7 +50,7 @@ After that, please use the kitti evaluation devkit (deails can be refered to [Fr
 We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing). This checkpoint performance is as follow:
 
 
-### Test
+### Test (I will modify this section to be more automatical in future)
 
 Modify the train set to the trainval set (You can modify it in the code/libs/helpers/dataloader_helper.py), and then modify the input of the evaluation function to the test set (code/tools/train_val.py). 
 
