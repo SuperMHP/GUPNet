@@ -53,19 +53,43 @@ We also provide the trained checkpoint which achieved the best multi-category pe
     <tr>
         <td rowspan="2">Models</td>
         <td colspan="3",div align="center">Car@IoU=0.7</td>    
-        <td colspan="3">Car@IoU=0.7</td>  
-        <td colspan="3">Car@IoU=0.7</td>  
+        <td colspan="3",div align="center">Pedestrian@IoU=0.5</td>  
+        <td colspan="3",div align="center">Cyclist@IoU=0.5</td>  
     </tr>
     <tr>
-        <td>第一列</td> 
-        <td>第一列</td> 
-        <td>第一列</td> 
-        <td>第一列</td> 
-        <td>第一列</td> 
-        <td>第一列</td> 
-        <td>第一列</td> 
-        <td>第一列</td> 
-        <td>第一列</td> 
+        <td>Easy</td> 
+        <td>Mod</td> 
+        <td>Hard</td> 
+        <td>Easy</td> 
+        <td>Mod</td> 
+        <td>Hard</td> 
+        <td>Easy</td> 
+        <td>Mod</td> 
+        <td>Hard</td>  
+    </tr>
+    <tr>
+        <td>original paper</td>
+        <td>22.76</td> 
+        <td>16.46</td> 
+        <td>13.72</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td>  
+    </tr>
+    <tr>
+        <td>released checkpoint</td>
+        <td>22.76</td> 
+        <td>16.46</td> 
+        <td>13.72</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td> 
+        <td>-</td>  
     </tr>
 </table>
 
