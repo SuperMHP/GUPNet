@@ -12,14 +12,14 @@ If you find our work useful in your research, please consider citing:
 
 ## Training
 
-1. Download the KITTI dataset from [KITTI website](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d), including left color images, camera calibration matrices and training labels.
+Download the KITTI dataset from [KITTI website](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d), including left color images, camera calibration matrices and training labels.
 
-2. Clone this project and then go to the code directory:
+Clone this project and then go to the code directory:
 
     git clone https://github.com/SuperMHP/GUPNet.git
     cd code
 
-3. We train the model on the following environments:
+We train the model on the following environments:
 
     Python 3.6
     Pytorch 1.1
@@ -29,17 +29,17 @@ You can build the environment easily by installing the requirements:
 
     pip install -r requirements.yml
 
-4. Train the model:
+Train the model:
 
     CUDA_VISIBLE_DEVICES=0,1,2 python tools/train_val.py
 
 ## Evaluation
 
-1. After training the model will directly feedback the detection files for evaluation (If so, you can skip this setep). But if you want to test a given checkpoint, you need to modify the "resume" of the "tester" in the code/experiments/config.yaml and then run:
+After training the model will directly feedback the detection files for evaluation (If so, you can skip this setep). But if you want to test a given checkpoint, you need to modify the "resume" of the "tester" in the code/experiments/config.yaml and then run:
 
     python tools/train_val.py -e
 
-2. After that, please use the kitti evaluation devkit (deails can be refered to [FrustumPointNet](https://github.com/charlesq34/frustum-pointnets)) to evaluate:
+After that, please use the kitti evaluation devkit (deails can be refered to [FrustumPointNet](https://github.com/charlesq34/frustum-pointnets)) to evaluate:
 
     g++ evaluate_object_3d_offline_apXX.cpp -o evaluate_object_3d_offline_ap
     ../../tools/kitti_eval/evaluate_object_3d_offline_apXX KITTI_LABEL_DIR ./output
@@ -49,14 +49,14 @@ We also provide the trained checkpoint which achieved the best multi-category pe
 
 ## Evaluate on the testing set (I will modify this section more automatical in the future)
 
-1. Modify the train set to the trainval set (You can modify it in the code/libs/helpers/dataloader_helper.py), and then modify the input of the evaluation function to the test set (code/tools/train_val.py). 
+Modify the train set to the trainval set (You can modify it in the code/libs/helpers/dataloader_helper.py), and then modify the input of the evaluation function to the test set (code/tools/train_val.py). 
 
-2. Compressed the output file to a zip file (Please note that this zip file do NOT include any root directory):
+Compressed the output file to a zip file (Please note that this zip file do NOT include any root directory):
 
     cd outputs/data
     zip -r submission.zip .
 
-3. submit this file to the KITTI page (You need to register an account.)
+submit this file to the KITTI page (You need to register an account.)
 
 We also give our trained checkpoint on the trainval dataset. You can download it from [here](https://drive.google.com/file/d/1ppvEoE8VlCQjoY_viPcYvdjTf7J2yi1w/view?usp=sharing). This checkpoint performance is as follow:
 
