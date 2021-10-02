@@ -49,10 +49,18 @@ After that, please use the kitti evaluation devkit (deails can be refered to [Fr
 
 We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing). This checkpoint performance is as follow:
 
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
+<table>
+    <tr>
+        <td>第一列</td> 
+        <td>第二列</td> 
+   </tr>
+    <tr>
+        <td colspan="2">这里是合并行</td>    
+    </tr>
+    <tr>
+        <td colspan="2">这里也是合并行</td>    
+    </tr>
+</table>
 
 ### Test (I will modify this section to be more automatical in future)
 
