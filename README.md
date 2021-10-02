@@ -54,6 +54,11 @@ We also provide the trained checkpoint which achieved the best multi-category pe
         <td>第一列</td> 
         <td colspan="2">这里是合并行</td>    
     </tr>
+    <tr>
+        <td>第一列</td> 
+        <td>第一列</td> 
+        <td>第一列</td> 
+    </tr>
 </table>
 
 ### Test (I will modify this section to be more automatical in future)
