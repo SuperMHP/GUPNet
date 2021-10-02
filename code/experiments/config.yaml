@@ -37,5 +37,5 @@ trainer:
   #resume_model: '...'  
 tester:
   threshold: 0.2  # confidence filter
-  resume_model: '../../3d_det/KITTI_code/log/h3d_loss_low/2021-09-30 22:44:48/checkpoints/checkpoint_epoch_140.pth'  
+  #resume_model: '...'  
   
