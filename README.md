@@ -10,14 +10,20 @@ If you find our work useful in your research, please consider citing:
 
 ## Training
 
-Download the KITTI dataset from [KITTI website](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d), includiing left color images, camera calibration matrices and training labels.
+Download the KITTI dataset from [KITTI website](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d), including left color images, camera calibration matrices and training labels.
 
 Clone this project and then go to the code directory:
 
     git clone https://github.com/SuperMHP/GUPNet.git
     cd code
 
-Install the requirements:
+We train the model on the following environments:
+
+    Python 3.6
+    Pytorch 1.1
+    Cuda 9.0
+
+You can build the environment easily by installing the requirements:
 
     pip install -r requirements.yml
 
@@ -36,4 +42,12 @@ After that, please use the kitti evaluation devkit (deails can be refered to [Fr
     g++ evaluate_object_3d_offline_apXX.cpp -o evaluate_object_3d_offline_ap
     ../../tools/kitti_eval/evaluate_object_3d_offline_apXX KITTI_LABEL_DIR ./output
 
-We also provide the trained checkpoint which achieved best multi-catagory performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing).
+We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing).
+
+## Other relative things
+
+1. The releases code is originally set to train on multi-category here. If you would like to train on the single category (Car), please modify the code/experiments/config.yaml. Single-category training can lead to higher performance on the Car. 
+
+2. If you need to evaluate the results on the testing set. Please modify the train set to the trainval set first. And after training, please submit a compressed file of the outputs/data. 
+
+3. The overall code cannot completely remove randomness because we use some functions which do not have reproduced implementation (e.g. ROI align). So the performance may have a certain degree of jitter, which is normal for this project. 
