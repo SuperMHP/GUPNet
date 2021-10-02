@@ -69,27 +69,27 @@ We also provide the trained checkpoint which achieved the best multi-category pe
     </tr>
     <tr>
         <td div align="center">original paper</td>
-        <td div align="center">22.76</td> 
-        <td div align="center">16.46</td> 
-        <td div align="center">13.72</td> 
+        <td div align="center">22.76%</td> 
+        <td div align="center">16.46%</td> 
+        <td div align="center">13.72%</td> 
         <td div align="center">-</td> 
         <td div align="center">-</td> 
         <td div align="center">-</td> 
         <td div align="center">-</td> 
         <td div align="center">-</td> 
         <td div align="center">-</td>  
-    </tr>
+    </tr>    
     <tr>
-        <td>released checkpoint</td>
-        <td>22.76</td> 
-        <td>16.46</td> 
-        <td>13.72</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td>  
+        <td div align="center">[released chpt](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing)</td>
+        <td div align="center">23.19%</td> 
+        <td div align="center">16.23%</td> 
+        <td div align="center">13.57%</td> 
+        <td div align="center">11.29%</td> 
+        <td div align="center">7.05%</td> 
+        <td div align="center">6.36%</td> 
+        <td div align="center">9.49%</td> 
+        <td div align="center">5.01%</td> 
+        <td div align="center">4.14%</td>  
     </tr>
 </table>
 
@@ -106,6 +106,50 @@ Compressed the output file to a zip file (Please note that this zip file do NOT 
 submit this file to the KITTI page (You need to register an account.)
 
 We also give our trained checkpoint on the trainval dataset. You can download it from [here](https://drive.google.com/file/d/1ppvEoE8VlCQjoY_viPcYvdjTf7J2yi1w/view?usp=sharing). This checkpoint performance is as follow:
+
+<table align="center">
+    <tr>
+        <td rowspan="2",div align="center">Models</td>
+        <td colspan="3",div align="center">Car@IoU=0.7</td>    
+        <td colspan="3",div align="center">Pedestrian@IoU=0.5</td>  
+        <td colspan="3",div align="center">Cyclist@IoU=0.5</td>  
+    </tr>
+    <tr>
+        <td div align="center">Easy</td> 
+        <td div align="center">Mod</td> 
+        <td div align="center">Hard</td> 
+        <td div align="center">Easy</td> 
+        <td div align="center">Mod</td> 
+        <td div align="center">Hard</td> 
+        <td div align="center">Easy</td> 
+        <td div align="center">Mod</td> 
+        <td div align="center">Hard</td>  
+    </tr>
+    <tr>
+        <td div align="center">original paper</td>
+        <td div align="center">20.11%</td> 
+        <td div align="center">14.20%</td> 
+        <td div align="center">11.77%</td> 
+        <td div align="center">14.72%</td> 
+        <td div align="center">9.53%</td> 
+        <td div align="center">7.87%</td> 
+        <td div align="center">4.18%</td> 
+        <td div align="center">2.65%</td> 
+        <td div align="center">2.09%</td>  
+    </tr>
+    <tr>
+        <td div align="center">[released chpt](https://drive.google.com/file/d/1ppvEoE8VlCQjoY_viPcYvdjTf7J2yi1w/view?usp=sharing)</td>
+        <td div align="center">22.26%</td> 
+        <td div align="center">15.02%</td> 
+        <td div align="center">13.12%</td> 
+        <td div align="center">14.95%</td> 
+        <td div align="center">9.76%</td> 
+        <td div align="center">8.41%</td> 
+        <td div align="center">5.58%</td> 
+        <td div align="center">3.21%</td> 
+        <td div align="center">2.66%</td>  
+    </tr>
+</table>
 
 ## Other relative things
 
