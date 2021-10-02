@@ -107,7 +107,7 @@ Compressed the output file to a zip file (Please note that this zip file do NOT 
 
 submit this file to the KITTI page (You need to register an account.)
 
-We also give our trained checkpoint on the trainval dataset. You can download it from [here](https://drive.google.com/file/d/1ppvEoE8VlCQjoY_viPcYvdjTf7J2yi1w/view?usp=sharing). This checkpoint performance is as follow:
+We also give our trained checkpoint on the trainval dataset. You can download it from [here](https://drive.google.com/file/d/1ppvEoE8VlCQjoY_viPcYvdjTf7J2yi1w/view?usp=sharing). This checkpoint performance is as follow ([KITTI page](http://www.cvlibs.net/datasets/kitti/eval_object_detail.php?&result=9d44d2a957398840c436e4501d76b1008060f563)):
 
 <table align="center">
     <tr>
