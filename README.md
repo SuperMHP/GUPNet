@@ -51,7 +51,6 @@ We also provide the trained checkpoint which achieved the best multi-category pe
 
 <table>
         <th width=45% style="text-align:center"></th>
-   </tr>
     <tr>
         <td rowspan="2">Models</td>
         <td colspan="3">Car@IoU=0.7</td>    
