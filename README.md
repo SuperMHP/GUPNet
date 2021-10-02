@@ -52,7 +52,7 @@ We also provide the trained checkpoint which achieved the best multi-category pe
 <table>
     <tr>
         <td rowspan="2">Models</td>
-        <td colspan="3",style="text-align:center">Car@IoU=0.7</td>    
+        <td colspan="3",align="center">Car@IoU=0.7</td>    
     </tr>
     <tr>
         <td>第一列</td> 
