@@ -8,7 +8,7 @@ If you find our work useful in your research, please consider citing:
 
     @article{lu2021geometry,title={Geometry Uncertainty Projection Network for Monocular 3D Object Detection},author={Lu, Yan and Ma, Xinzhu and Yang, Lei and Zhang, Tianzhu and Liu, Yating and Chu, Qi and Yan, Junjie and Ouyang, Wanli},journal={arXiv preprint arXiv:2107.13774},year={2021}}
 
-# Evaluate on the evaluation set
+## Evaluate on the evaluation set
 
 ## Training
 
@@ -22,9 +22,7 @@ If you find our work useful in your research, please consider citing:
 3. We train the model on the following environments:
 
     Python 3.6
-
     Pytorch 1.1
-
     Cuda 9.0
 
 You can build the environment easily by installing the requirements:
@@ -44,20 +42,18 @@ You can build the environment easily by installing the requirements:
 2. After that, please use the kitti evaluation devkit (deails can be refered to [FrustumPointNet](https://github.com/charlesq34/frustum-pointnets)) to evaluate:
 
     g++ evaluate_object_3d_offline_apXX.cpp -o evaluate_object_3d_offline_ap
-    
     ../../tools/kitti_eval/evaluate_object_3d_offline_apXX KITTI_LABEL_DIR ./output
 
 We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing). This checkpoint performance is as follow:
 
 
-# Evaluate on the testing set (I will modify this section more automatical in the future)
+## Evaluate on the testing set (I will modify this section more automatical in the future)
 
 1. Modify the train set to the trainval set (You can modify it in the code/libs/helpers/dataloader_helper.py), and then modify the input of the evaluation function to the test set (code/tools/train_val.py). 
 
 2. Compressed the output file to a zip file (Please note that this zip file do NOT include any root directory):
 
     cd outputs/data
-
     zip -r submission.zip .
 
 3. submit this file to the KITTI page (You need to register an account.)
