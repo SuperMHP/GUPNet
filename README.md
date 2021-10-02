@@ -10,7 +10,7 @@ If you find our work useful in your research, please consider citing:
 
 ## Usage
 
-### Training
+### Train
 
 Download the KITTI dataset from [KITTI website](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d), including left color images, camera calibration matrices and training labels.
 
@@ -33,7 +33,7 @@ Train the model:
 
     CUDA_VISIBLE_DEVICES=0,1,2 python tools/train_val.py
 
-### Evaluation
+### Evaluate
 
 After training the model will directly feedback the detection files for evaluation (If so, you can skip this setep). But if you want to test a given checkpoint, you need to modify the "resume" of the "tester" in the code/experiments/config.yaml and then run:
 
@@ -47,7 +47,7 @@ After that, please use the kitti evaluation devkit (deails can be refered to [Fr
 We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing). This checkpoint performance is as follow:
 
 
-## Test
+### Test
 
 Modify the train set to the trainval set (You can modify it in the code/libs/helpers/dataloader_helper.py), and then modify the input of the evaluation function to the test set (code/tools/train_val.py). 
 
