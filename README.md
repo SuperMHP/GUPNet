@@ -138,7 +138,7 @@ We also give our trained checkpoint on the trainval dataset. You can download it
         <td div align="center">2.09%</td>  
     </tr>
     <tr>
-        <td div align="center">[released chpt](https://drive.google.com/file/d/1ppvEoE8VlCQjoY_viPcYvdjTf7J2yi1w/view?usp=sharing)</td>
+        <td div align="center">[released chpt]<https://drive.google.com/file/d/1ppvEoE8VlCQjoY_viPcYvdjTf7J2yi1w/view?usp=sharing></td>
         <td div align="center">22.26%</td> 
         <td div align="center">15.02%</td> 
         <td div align="center">13.12%</td> 
