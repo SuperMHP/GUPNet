@@ -49,7 +49,6 @@ After that, please use the kitti evaluation devkit (deails can be refered to [Fr
 
 We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing). This checkpoint performance is as follow:
 <center>
-<table>
     <tr>
         <td rowspan="2">:Models:</td>
         <td colspan="3">:这里是合并行:</td>    
@@ -59,7 +58,6 @@ We also provide the trained checkpoint which achieved the best multi-category pe
         <td>第一列</td> 
         <td>第一列</td> 
     </tr>
-</table>
 </center>
 
 ### Test (I will modify this section to be more automatical in future)
