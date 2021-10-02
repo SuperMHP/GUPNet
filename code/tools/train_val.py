@@ -35,6 +35,7 @@ def main():
     # load cfg
     assert (os.path.exists(args.config))
     cfg = yaml.load(open(args.config, 'r'), Loader=yaml.Loader)
+    os.makedirs(cfg['trainer']['log_dir'],exist_ok=True)
     logger = create_logger(os.path.join(cfg['trainer']['log_dir'],'train.log'))    
     
     #  build dataloader
