@@ -50,11 +50,8 @@ After that, please use the kitti evaluation devkit (deails can be refered to [Fr
 We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing). This checkpoint performance is as follow:
 
 <table>
- <tr>
-     <td>:-:</td> 
-     <td>:-:</td> 
-     <td>:-:</td> 
- </tr>
+        <th width=45% style="text-align:center"></th>
+   </tr>
     <tr>
         <td rowspan="2">Models</td>
         <td colspan="3">Car@IoU=0.7</td>    
