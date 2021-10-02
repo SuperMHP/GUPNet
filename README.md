@@ -8,7 +8,7 @@ If you find our work useful in your research, please consider citing:
 
     @article{lu2021geometry,title={Geometry Uncertainty Projection Network for Monocular 3D Object Detection},author={Lu, Yan and Ma, Xinzhu and Yang, Lei and Zhang, Tianzhu and Liu, Yating and Chu, Qi and Yan, Junjie and Ouyang, Wanli},journal={arXiv preprint arXiv:2107.13774},year={2021}}
 
-### Evaluate on the evaluation set
+## Usage
 
 ### Training
 
@@ -33,7 +33,7 @@ Train the model:
 
     CUDA_VISIBLE_DEVICES=0,1,2 python tools/train_val.py
 
-## Evaluation
+### Evaluation
 
 After training the model will directly feedback the detection files for evaluation (If so, you can skip this setep). But if you want to test a given checkpoint, you need to modify the "resume" of the "tester" in the code/experiments/config.yaml and then run:
 
@@ -47,7 +47,7 @@ After that, please use the kitti evaluation devkit (deails can be refered to [Fr
 We also provide the trained checkpoint which achieved the best multi-category performance on the validation set. It can be downloaded at [here](https://drive.google.com/file/d/1-iQEjNlWMGYC-wC4kN6We_TBbBmeKsmz/view?usp=sharing). This checkpoint performance is as follow:
 
 
-## Evaluate on the testing set (I will modify this section more automatical in the future)
+## Test
 
 Modify the train set to the trainval set (You can modify it in the code/libs/helpers/dataloader_helper.py), and then modify the input of the evaluation function to the test set (code/tools/train_val.py). 
 
