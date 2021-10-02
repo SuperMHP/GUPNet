@@ -51,8 +51,8 @@ We also provide the trained checkpoint which achieved the best multi-category pe
 
 <table>
     <tr>
-        <td>第一列</td> 
-        <td colspan="2">这里是合并行</td>    
+        <td rowspan="2">Models</td>
+        <td colspan="3">这里是合并行</td>    
     </tr>
     <tr>
         <td>第一列</td> 
