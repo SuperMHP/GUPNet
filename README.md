@@ -2,6 +2,8 @@
 
 This is the official implementation of "Geometry Uncertainty Projection Network for Monocular 3D Object Detection".
 
+<img src="picture/gupnet.pdf" alt="vis2" style="zoom:30%;" />
+
 ## citation
 
 If you find our work useful in your research, please consider citing:
