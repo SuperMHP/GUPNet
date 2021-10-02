@@ -160,3 +160,7 @@ We also give our trained checkpoint on the trainval dataset. You can download it
 2. This implementation includes some tricks that do not describe in the paper. Please feel free to ask me in the issue. And I will also update the principle of them in the [supplementary materials](https://github.com/SuperMHP/GUPNet/blob/main/pdf/supp.pdf)
 
 3. The overall code cannot completely remove randomness because we use some functions which do not have reproduced implementation (e.g. ROI align). So the performance may have a certain degree of jitter, which is normal for this project. 
+
+## Contact
+
+If you have any question about this project, please feel free to contact [yan.lu1@sydney.edu.au](yan.lu1@sydney.edu.au).
