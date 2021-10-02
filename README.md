@@ -48,6 +48,6 @@ We also provide the trained checkpoint which achieved the best multi-category pe
 
 1. The releases code is originally set to train on multi-category here. If you would like to train on the single category (Car), please modify the code/experiments/config.yaml. Single-category training can lead to higher performance on the Car. 
 
-2. If you need to evaluate the results on the testing set. Please modify the train set to the trainval set first. And after training, please submit a compressed file of the outputs/data. 
+2. If you need to evaluate the results on the testing set. Please modify the train set to the trainval set first and evaluate on the test set. And after training, please submit a compressed file of the outputs/data. 
 
 3. The overall code cannot completely remove randomness because we use some functions which do not have reproduced implementation (e.g. ROI align). So the performance may have a certain degree of jitter, which is normal for this project. 
