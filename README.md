@@ -8,9 +8,9 @@ If you find our work useful in your research, please consider citing:
 
     @article{lu2021geometry,title={Geometry Uncertainty Projection Network for Monocular 3D Object Detection},author={Lu, Yan and Ma, Xinzhu and Yang, Lei and Zhang, Tianzhu and Liu, Yating and Chu, Qi and Yan, Junjie and Ouyang, Wanli},journal={arXiv preprint arXiv:2107.13774},year={2021}}
 
-## Evaluate on the evaluation set
+### Evaluate on the evaluation set
 
-## Training
+### Training
 
 Download the KITTI dataset from [KITTI website](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d), including left color images, camera calibration matrices and training labels.
 
