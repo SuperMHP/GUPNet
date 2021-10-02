@@ -51,27 +51,27 @@ We also provide the trained checkpoint which achieved the best multi-category pe
 
 <table align="center">
     <tr>
-        <td rowspan="2">Models</td>
+        <td rowspan="2",div align="center">Models</td>
         <td colspan="3",div align="center">Car@IoU=0.7</td>    
         <td colspan="3",div align="center">Pedestrian@IoU=0.5</td>  
         <td colspan="3",div align="center">Cyclist@IoU=0.5</td>  
     </tr>
     <tr>
-        <td>Easy</td> 
-        <td>Mod</td> 
-        <td>Hard</td> 
-        <td>Easy</td> 
-        <td>Mod</td> 
-        <td>Hard</td> 
-        <td>Easy</td> 
-        <td>Mod</td> 
-        <td>Hard</td>  
+        <td div align="center">Easy</td> 
+        <td div align="center">Mod</td> 
+        <td div align="center">Hard</td> 
+        <td div align="center">Easy</td> 
+        <td div align="center">Mod</td> 
+        <td div align="center">Hard</td> 
+        <td div align="center">Easy</td> 
+        <td div align="center">Mod</td> 
+        <td div align="center">Hard</td>  
     </tr>
     <tr>
-        <td>original paper</td>
-        <td>22.76</td> 
-        <td>16.46</td> 
-        <td>13.72</td> 
+        <td div align="center">original paper</td>
+        <td div align="center">22.76</td> 
+        <td div align="center">16.46</td> 
+        <td div align="center">13.72</td> 
         <td div align="center">-</td> 
         <td div align="center">-</td> 
         <td div align="center">-</td> 
