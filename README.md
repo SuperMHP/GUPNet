@@ -72,12 +72,12 @@ We also provide the trained checkpoint which achieved the best multi-category pe
         <td>22.76</td> 
         <td>16.46</td> 
         <td>13.72</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td> 
-        <td>-</td>  
+        <td,div align="center">-</td> 
+        <td,div align="center">-</td> 
+        <td,div align="center">-</td> 
+        <td,div align="center">-</td> 
+        <td,div align="center">-</td> 
+        <td,div align="center">-</td>  
     </tr>
     <tr>
         <td>released checkpoint</td>
