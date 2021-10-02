@@ -163,4 +163,4 @@ We also give our trained checkpoint on the trainval dataset. You can download it
 
 ## Contact
 
-If you have any question about this project, please feel free to contact [yan.lu1@sydney.edu.au](yan.lu1@sydney.edu.au).
+If you have any question about this project, please feel free to contact yan.lu1@sydney.edu.au.
