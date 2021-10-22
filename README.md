@@ -32,7 +32,8 @@ We train the model on the following environments:
 
 You can build the environment easily by installing the requirements:
 
-    conda install -r requirements.yml
+    conda env create -f requirements.yml
+    conda activate gupnet
 
 Train the model:
 
