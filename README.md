@@ -32,7 +32,7 @@ We train the model on the following environments:
 
 You can build the environment easily by installing the requirements:
 
-    pip install -r requirements.yml
+    conda install -r requirements.yml
 
 Train the model:
 
