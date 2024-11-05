@@ -6,7 +6,7 @@ This is the official implementation of "Geometry Uncertainty Projection Network 
 
 ## News
 
-An updated version of the GUPNet, called GUPNet++, has been released at [GUPNET++](https://github.com/SuperMHP/GUPNet_Plus). We hope this new version can contribute in your research. Regards. 
+An updated version of the GUPNet, called GUPNet++, has been released at [GUPNET++](https://github.com/SuperMHP/GUPNet_Plus). We hope this new version can contribute to your research. Regards. 
 
 ## Citation
 
