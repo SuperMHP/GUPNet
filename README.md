@@ -4,7 +4,11 @@ This is the official implementation of "Geometry Uncertainty Projection Network 
 
 <img src="picture/gupnet.JPG" alt="vis2" style="zoom:30%;" />
 
-## citation
+## News
+
+An updated version of the GUPNet, called GUPNet++, has been released at [GUPNET++](https://github.com/SuperMHP/GUPNet_Plus). We hope this new version can contribute in your research. Regards. 
+
+## Citation
 
 If you find our work useful in your research, please consider citing:
 
